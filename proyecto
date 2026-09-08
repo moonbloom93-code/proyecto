@@ -1,0 +1,15 @@
+class Cuenta:
+  
+    def __init__(self, saldo):
+        self.saldo = saldo
+
+    def depositar(self, cantidad):
+        self.saldo += cantidad
+ 
+    def mostrar_saldo(self):
+        print("El saldo actual es: $", self.saldo)
+
+cuenta1 = Cuenta(100)
+cuenta1.depositar(50)
+cuenta1.mostrar_saldo()
+t
